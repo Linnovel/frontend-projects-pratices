@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>Guitar la</h1>
+      <h1>guitar la</h1>
       <header class="py-5 header">
         <div class="container-xl">
           <div class="row justify-content-center justify-content-md-between">
