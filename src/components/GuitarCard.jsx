@@ -1,6 +1,6 @@
 import React from "react";
 
-const GuitarCard = ({ guitar, addToCard }) => {
+const GuitarCard = ({ guitar, addToCart }) => {
   const { id, name, image, description, price } = guitar;
 
   return (
@@ -13,7 +13,7 @@ const GuitarCard = ({ guitar, addToCard }) => {
         <p>{description}</p>
         <p className="fw-black text-primary fs-3">${price}</p>
         <button
-          onClick={() => addToCard(guitar)}
+          onClick={() => addToCart(guitar)}
           type="button"
           className="btn btn-dark w-100"
         >
